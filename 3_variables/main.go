@@ -11,8 +11,12 @@ func main() {
 	fmt.Println(name)
 
 	// Sometimes if we dont define var type , Go Lang is able to infer the var type
-	var surname = "Chamoli"
-	fmt.Println((name.variable_type)
-	fmt.Println(surname)
+	var surname = "Devansh"
+
+	fmt.Printf("Type of variable : %T \n", surname)
+
+	fmt.Printf("This is the value : %s", surname)
+
+	fmt.Println("This is the value : ", surname)
 
 }
