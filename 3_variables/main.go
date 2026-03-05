@@ -19,4 +19,19 @@ func main() {
 
 	fmt.Println("This is the value : ", surname)
 
+	//shorthand syntax
+	first_name := "golang"
+
+	fmt.Println("This is the shorthand version:", first_name)
+
+	// Question arises what is even the need of var or defining the type when we can just use shorthand
+
+	// Var still needs to be used when we are declaring variables
+
+	var declare_name string
+
+	declare_name = "Test Demo Go Lang"
+
+	fmt.Println("This is the declared variable : ", declare_name)
+
 }
