@@ -24,5 +24,15 @@ func main() {
 	// name = "Trying to change".   This will not let us change value of name.
 
 	fmt.Println(age)
-	fmt.Printf("%T", age)
+
+	fmt.Printf("%T \n", age)
+
+	// We can also declare many const variables together
+
+	const (
+		port = 5000
+		host = "localhost"
+	)
+
+	fmt.Printf("The Server is running at %s:%d", host, port)
 }
